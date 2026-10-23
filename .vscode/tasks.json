@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Java 21: compilar",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/java.ps1", "build"],
+      "group": {"kind": "build", "isDefault": true},
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Java 21: pruebas",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/java.ps1", "test"],
+      "group": {"kind": "test", "isDefault": true},
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Java 21: demo",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/java.ps1", "demo"],
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Java 21: menu interactivo",
+      "type": "process",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/scripts/java.ps1", "interactivo"],
+      "presentation": {"focus": true, "panel": "dedicated"},
+      "problemMatcher": "$javac"
+    }
+  ]
+}

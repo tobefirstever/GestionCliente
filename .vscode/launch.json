@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Java 21: menu interactivo",
+      "request": "launch",
+      "mainClass": "com.empresa.gestion.app.Main",
+      "classPaths": ["${workspaceFolder}/out/main"],
+      "args": "--interactivo",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Java 21: compilar"
+    },
+    {
+      "type": "java",
+      "name": "Java 21: demo Carlos",
+      "request": "launch",
+      "mainClass": "com.empresa.gestion.app.Main",
+      "classPaths": ["${workspaceFolder}/out/main"],
+      "args": "--demo",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Java 21: compilar"
+    }
+  ]
+}

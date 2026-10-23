@@ -1,0 +1,9 @@
+{
+  "java.project.sourcePaths": ["src/main/java", "src/test/java"],
+  "java.project.outputPath": "out/vscode",
+  "java.project.referencedLibraries": [],
+  "files.encoding": "utf8",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+  "files.exclude": {"**/*.class": true}
+}
