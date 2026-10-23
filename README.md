@@ -1,6 +1,6 @@
 # Gestión de clientes y pedidos — Java 21
 
-Aplicación de consola basada en `Proyecto_Integrador_Sesion_7_Java_21.md`. Implementa el caso de estudio y agrega un menú interactivo, pruebas automatizadas y configuración para Visual Studio Code. Java puro, sin Spring, Maven ni librerías externas.
+Implementa el caso de estudio y agrega un menú interactivo, pruebas automatizadas y configuración para Visual Studio Code. Java puro, sin Spring, Maven ni librerías externas.
 
 ## Inicio rápido en Visual Studio Code
 
