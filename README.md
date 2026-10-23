@@ -6,12 +6,6 @@ Aplicación de consola basada en `Proyecto_Integrador_Sesion_7_Java_21.md`. Impl
 
 Requisitos: **JDK 21** y **Extension Pack for Java** (`vscjava.vscode-java-pack`). La recomendación de extensión está incluida en `.vscode/extensions.json`.
 
-1. Abra esta carpeta en VS Code: `code D:\Github-repos\GestionCliente`.
-2. Compruebe en la terminal integrada que `java -version` y `javac -version` muestran la versión 21. Si hay varias instalaciones, use **Java: Configure Java Runtime** para seleccionar el JDK 21 para este proyecto sin herramienta de construcción. Los scripts utilizan `JAVA_HOME` si está definido; en caso contrario, el `PATH`.
-3. Pulse **F5** y elija **Java 21: menu interactivo**. La entrada se realiza en la terminal integrada. También está disponible **Java 21: demo Carlos**.
-4. Para depurar el flujo, coloque un breakpoint en `PedidoService.registrarPedido`, registre un cliente y luego un pedido.
-5. Use **Terminal → Run Task → Java 21: pruebas** para ejecutar las verificaciones. **Ctrl+Shift+B** compila.
-
 Las tareas ejecutan PowerShell y están preparadas para Windows. El código Java también se puede compilar directamente en Linux/macOS.
 
 ### Terminal PowerShell
